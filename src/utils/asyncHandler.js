@@ -5,8 +5,7 @@ const asyncHandler = (requestHandler) =>{
             next(err)
         })
     }}
-
-
+    
 
 export { asyncHandler }
 

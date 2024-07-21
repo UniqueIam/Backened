@@ -7,6 +7,7 @@ cloudinary.config({
     api_secret:process.env.CLOUDINARY_CLOUD_API_SECRET
 });
 
+
 const uploadOnCloudinary = async (localFilePath)=>{
     try {
         if(!localFilePath) return null    //check wheather the file is exist or not
